@@ -9,6 +9,7 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>DubboProvider</module>
+      <module>DubboConsume</module>
   </modules>
   <packaging>pom</packaging>
 
