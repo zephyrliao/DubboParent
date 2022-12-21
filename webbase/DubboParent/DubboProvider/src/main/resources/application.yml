@@ -2,4 +2,10 @@ dubbo:
  application:
   name: dubbo-provider
  registry:
-  address: zookeeper://192.168.93.10:2181
+#  address: zookeeper://192.168.223.128:2181
+  timeout: 300000
+  address:
+# protocol:
+#  port:  20884
+#  name: dubbo
+#  host: 192.168.223.128

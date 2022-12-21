@@ -3,6 +3,9 @@ package org.lwq.service.imp;
 import org.apache.dubbo.config.annotation.DubboService;
 import org.lwq.service.DemoService;
 
+/**
+ * @author Administrator
+ */
 @DubboService
 public class DemoDubboServiceImpl implements DemoService {
 

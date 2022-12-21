@@ -2,4 +2,4 @@ dubbo:
  application:
   name: dubbo-consumer
  registry:
-  address: zookeeper://192.168.93.10:2181
+  address: zookeeper://192.168.223.128:2181?timeout=300000

@@ -1,5 +1,6 @@
 package org.lwq.controller;
 
+import org.lwq.service.DemoDubboService;
 import org.lwq.service.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -10,11 +11,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class DemoController {
 
     @Autowired
-    private DemoService demoService;
+    private DemoDubboService demoService;
 
     @ResponseBody
     @RequestMapping("/demo")
     public String demo(){
-        return  demoService.demo();
+        return  demoService.consumeDemoService();
     }
 }
